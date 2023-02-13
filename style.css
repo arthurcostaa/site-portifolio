@@ -370,3 +370,43 @@ footer {
   justify-content: space-between;
   width: 40%;
 }
+
+@media only screen and (max-device-width: 450px) {
+  .content-container {
+    width: 96vw;
+    max-width: 96vw;
+  }
+
+  .barra-navegacao {
+    width: 100%;
+  }
+
+  .hero-info {
+    width: 100%;
+  }
+
+  .footer-content {
+    width: 100%;
+  }
+
+  .abilities-cards-container {
+    grid-template-columns: auto;
+    margin-top: 12px;
+    row-gap: 36px;
+  }
+
+  .section-experiences-card {
+    width: 90vw;
+  }
+
+  .section-portifolio-grid {
+    grid-template-columns: auto;
+    row-gap: 36px;
+    margin-top: 24px;
+  }
+
+  .hero-info-image {
+    height: 100%;
+    width: 202px;
+  }
+}
