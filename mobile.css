@@ -108,9 +108,25 @@
   }
 
   .section-portifolio-grid {
-    grid-template-columns: auto;
-    row-gap: 36px;
-    margin-top: 24px;
+    grid-template-columns: auto auto;
+    row-gap: 24px;
+    column-gap: 24px;
+    margin-top: 36px;
+  }
+
+  .section-portifolio-card {
+    width: 400px;
+    height: auto;
+    padding: 24px 0px;
+  }
+
+  .section-portifolio-card-icon-img {
+    height: auto;
+    width: 40px;
+  }
+
+  .section-portifolio-card-links {
+    width: 30%;
   }
 
   .section-experiences-card {
